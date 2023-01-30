@@ -1,6 +1,5 @@
 import 'dart:math';
 
-// import 'package:blinkcard_flutter/microblink_scanner.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -28,26 +27,6 @@ class _MyAppState extends State<MyApp> {
       "scanInstructions": "Hola! Fit the card within the box",
     });
     print('Response' + details.toString());
-    // List<RecognizerResult> results;
-
-    // Recognizer recognizer = BlinkCardRecognizer();
-    // OverlaySettings settings = BlinkCardOverlaySettings();
-
-    // // set your license
-    // if (Theme.of(context).platform == TargetPlatform.iOS) {
-    //   license = "";
-    // } else if (Theme.of(context).platform == TargetPlatform.android) {
-    //   license = "";
-    // }
-
-    // try {
-    //   // perform scan and gather results
-    //   results = await MicroblinkScanner.scanWithCamera(
-    //       RecognizerCollection([recognizer]), settings, license);
-    // } catch (e) {
-    //   print('Heyyy$e');
-    //   // handle exception
-    // }
   }
 
   @override
